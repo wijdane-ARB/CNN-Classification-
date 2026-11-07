@@ -1,0 +1,16 @@
+{
+  "class_names": [
+    "buildings",
+    "forest",
+    "glacier",
+    "mountain",
+    "sea",
+    "street"
+  ],
+  "img_size": [
+    150,
+    150
+  ],
+  "label": "Intel scenes - CNN initial (88.1% test)",
+  "description": "3-block CNN trained from scratch on Intel Image Classification (6 scene classes)."
+}

@@ -1,0 +1,17 @@
+{
+  "class_names": [
+    "buildings",
+    "forest",
+    "glacier",
+    "mountain",
+    "sea",
+    "street"
+  ],
+  "img_size": [
+    150,
+    150
+  ],
+  "label": "Intel scenes - MobileNetV2 (91.9% test, best)",
+  "description": "MobileNetV2 transfer learning on Intel Image Classification (6 scene classes).",
+  "default": true
+}
