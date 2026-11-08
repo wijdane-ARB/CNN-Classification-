@@ -1,0 +1,128 @@
+[
+ {
+  "file": "buildings_ok_24087.jpg",
+  "true": "buildings",
+  "tag": "ok",
+  "m1": "buildings",
+  "m1_conf": 0.9954414367675781,
+  "m2": "buildings",
+  "m2_conf": 0.9700568318367004
+ },
+ {
+  "file": "forest_ok_23031.jpg",
+  "true": "forest",
+  "tag": "ok",
+  "m1": "forest",
+  "m1_conf": 0.9192678928375244,
+  "m2": "forest",
+  "m2_conf": 0.9672046899795532
+ },
+ {
+  "file": "glacier_ok_22822.jpg",
+  "true": "glacier",
+  "tag": "ok",
+  "m1": "glacier",
+  "m1_conf": 0.9603411555290222,
+  "m2": "glacier",
+  "m2_conf": 0.6133667230606079
+ },
+ {
+  "file": "mountain_ok_23942.jpg",
+  "true": "mountain",
+  "tag": "ok",
+  "m1": "mountain",
+  "m1_conf": 0.9929695725440979,
+  "m2": "mountain",
+  "m2_conf": 0.9269766807556152
+ },
+ {
+  "file": "sea_ok_22545.jpg",
+  "true": "sea",
+  "tag": "ok",
+  "m1": "sea",
+  "m1_conf": 0.9904258847236633,
+  "m2": "sea",
+  "m2_conf": 0.8673139214515686
+ },
+ {
+  "file": "street_ok_23290.jpg",
+  "true": "street",
+  "tag": "ok",
+  "m1": "street",
+  "m1_conf": 0.9987425208091736,
+  "m2": "street",
+  "m2_conf": 0.9906174540519714
+ },
+ {
+  "file": "mountain_m1ok_m2err_23429.jpg",
+  "true": "mountain",
+  "tag": "m1ok_m2err",
+  "m1": "mountain",
+  "m1_conf": 0.9367888569831848,
+  "m2": "sea",
+  "m2_conf": 0.6615661978721619
+ },
+ {
+  "file": "glacier_m1ok_m2err_20965.jpg",
+  "true": "glacier",
+  "tag": "m1ok_m2err",
+  "m1": "glacier",
+  "m1_conf": 0.9322165846824646,
+  "m2": "street",
+  "m2_conf": 0.6102200150489807
+ },
+ {
+  "file": "buildings_m1ok_m2err_20918.jpg",
+  "true": "buildings",
+  "tag": "m1ok_m2err",
+  "m1": "buildings",
+  "m1_conf": 0.918438732624054,
+  "m2": "street",
+  "m2_conf": 0.4081331491470337
+ },
+ {
+  "file": "glacier_m1ok_m2err_20198.jpg",
+  "true": "glacier",
+  "tag": "m1ok_m2err",
+  "m1": "glacier",
+  "m1_conf": 0.9820972084999084,
+  "m2": "street",
+  "m2_conf": 0.3526192307472229
+ },
+ {
+  "file": "buildings_hard_20231.jpg",
+  "true": "buildings",
+  "tag": "hard",
+  "m1": "street",
+  "m1_conf": 0.9892033934593201,
+  "m2": "street",
+  "m2_conf": 0.5161443948745728
+ },
+ {
+  "file": "mountain_hard_20690.jpg",
+  "true": "mountain",
+  "tag": "hard",
+  "m1": "glacier",
+  "m1_conf": 0.5342981815338135,
+  "m2": "forest",
+  "m2_conf": 0.9709522724151611
+ },
+ {
+  "file": "street_m2ok_m1err_20683.jpg",
+  "true": "street",
+  "tag": "m2ok_m1err",
+  "m1": "buildings",
+  "m1_conf": 0.9749051928520203,
+  "m2": "street",
+  "m2_conf": 0.6500837802886963
+ },
+ {
+  "file": "buildings_m2ok_m1err_22995.jpg",
+  "true": "buildings",
+  "tag": "m2ok_m1err",
+  "m1": "street",
+  "m1_conf": 0.9021452069282532,
+  "m2": "buildings",
+  "m2_conf": 0.8768644332885742
+ }
+]

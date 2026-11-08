@@ -1,0 +1,16 @@
+{
+  "class_names": [
+    "buildings",
+    "forest",
+    "glacier",
+    "mountain",
+    "sea",
+    "street"
+  ],
+  "img_size": [
+    150,
+    150
+  ],
+  "label": "Intel scenes - CNN improved (80.5% test)",
+  "description": "CNN with BatchNorm, Dropout and augmentation (weakest of the Intel models in this run)."
+}

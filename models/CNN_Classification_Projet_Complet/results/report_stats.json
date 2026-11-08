@@ -1,0 +1,96 @@
+{
+ "cnn_intel_modele1": {
+  "auc": {
+   "buildings": 0.986,
+   "forest": 0.999,
+   "glacier": 0.973,
+   "mountain": 0.976,
+   "sea": 0.988,
+   "street": 0.988
+  },
+  "macro_auc": 0.9851,
+  "hi_conf_share": 0.681,
+  "hi_conf_acc": 0.964,
+  "mean_conf_wrong": 0.718,
+  "mean_conf_right": 0.92,
+  "top_conf": [
+   [
+    76,
+    "mountain",
+    "glacier"
+   ],
+   [
+    50,
+    "glacier",
+    "mountain"
+   ],
+   [
+    48,
+    "buildings",
+    "street"
+   ],
+   [
+    42,
+    "street",
+    "buildings"
+   ]
+  ],
+  "f1": {
+   "buildings": 0.868,
+   "forest": 0.981,
+   "glacier": 0.841,
+   "mountain": 0.824,
+   "sea": 0.898,
+   "street": 0.882
+  },
+  "errors": 357,
+  "err_mg_bs": 216
+ },
+ "cnn_intel_modele2": {
+  "auc": {
+   "buildings": 0.972,
+   "forest": 0.998,
+   "glacier": 0.955,
+   "mountain": 0.959,
+   "sea": 0.97,
+   "street": 0.981
+  },
+  "macro_auc": 0.9723,
+  "hi_conf_share": 0.557,
+  "hi_conf_acc": 0.938,
+  "mean_conf_wrong": 0.689,
+  "mean_conf_right": 0.885,
+  "top_conf": [
+   [
+    109,
+    "mountain",
+    "sea"
+   ],
+   [
+    108,
+    "glacier",
+    "sea"
+   ],
+   [
+    79,
+    "buildings",
+    "street"
+   ],
+   [
+    62,
+    "glacier",
+    "mountain"
+   ]
+  ],
+  "f1": {
+   "buildings": 0.785,
+   "forest": 0.964,
+   "glacier": 0.739,
+   "mountain": 0.74,
+   "sea": 0.765,
+   "street": 0.844
+  },
+  "errors": 584,
+  "err_mg_bs": 227
+ }
+}

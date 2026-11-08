@@ -1,0 +1,35 @@
+{
+  "cnn_intel_modele1": {
+    "name": "Model 1 - initial CNN",
+    "params": 101894,
+    "epochs": 40,
+    "time_min": 7.2,
+    "val_acc": 0.8806,
+    "test_acc": 0.881,
+    "macro_f1": 0.8824,
+    "provided": true,
+    "description": "3 convolutional blocks trained from scratch (Rescaling, Conv+MaxPool x3, GlobalAveragePooling, Dense head)."
+  },
+  "cnn_intel_modele2": {
+    "name": "Model 2 - improved CNN",
+    "params": 406694,
+    "epochs": 19,
+    "time_min": 9.8,
+    "val_acc": 0.8175,
+    "test_acc": 0.8053,
+    "macro_f1": 0.8063,
+    "provided": true,
+    "description": "4 convolutional blocks + BatchNormalization + Dropout + data augmentation."
+  },
+  "cnn_intel_modele3_mobilenetv2": {
+    "name": "Model 3 - MobileNetV2",
+    "params": 2265670,
+    "epochs": 65,
+    "time_min": 22.0,
+    "val_acc": 0.9205,
+    "test_acc": 0.919,
+    "macro_f1": 0.9205,
+    "provided": true,
+    "description": "MobileNetV2 pre-trained on ImageNet, transfer learning + fine-tuning. Saved model included; test metrics reported from the original training report."
+  }
+}

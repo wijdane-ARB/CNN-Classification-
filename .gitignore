@@ -1,13 +1,9 @@
-.venv/
 __pycache__/
-*.pyc
-
-models/
-notebooks/
-streamlit_final_app/
-zip/
-fruits/
-
-__MACOSX/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.uploaded_models/
 .DS_Store
-._*
+models/New folder/

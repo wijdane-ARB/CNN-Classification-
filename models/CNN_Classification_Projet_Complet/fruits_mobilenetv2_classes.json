@@ -1,0 +1,13 @@
+{
+  "class_names": [
+    "apple",
+    "banana",
+    "orange"
+  ],
+  "img_size": [
+    128,
+    128
+  ],
+  "label": "Fruits - MobileNetV2 (apple/banana/orange)",
+  "description": "MobileNetV2 transfer learning on the fruits dataset (apple, banana, orange), 128x128 input."
+}
