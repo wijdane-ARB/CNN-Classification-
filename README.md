@@ -31,6 +31,8 @@ Open `http://localhost:8501`.
 
 ## Streamlit Community Cloud
 
+**Live app:** [cnnclassification.streamlit.app](https://cnnclassification.streamlit.app/)
+
 1. Create a **new GitHub repository** and upload the **contents** of this ZIP, not the ZIP itself. Keep `streamlit_cnn.py`, `requirements.txt`, `runtime.txt`, `.streamlit/`, and all `.keras` files together at the repository root.
 2. If GitHub blocks your model sizes or your repository uses Git LFS, review Streamlit Cloud's support before deploying. The complete ZIP includes model files; no external download step is required locally.
 3. In Streamlit Community Cloud, choose **Create app** and select the repo, branch and entrypoint `streamlit_cnn.py`.
